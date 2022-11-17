@@ -46,6 +46,8 @@ if (day==0) {
     document.write("<font color=\"white\">"+"Today is " + dayname);
         var img = document.createElement("img");
         img.src = "gifs/giphy-2.gif";
+        img.height=200;
+        img.width=200;
         // This next line will just add it to the <body> tag
         document.body.appendChild(img);
   } else if (day==5) {
