@@ -51,7 +51,7 @@ if (day==0) {
     document.write("<font color=\"white\"> <font size=\"300\">"+"&#9795;"+"</font>"+"<br>");
         var img = document.createElement("img");
         img.src = "images of gods/f28984a535b6738c11fd7547c90ae142.jpg";
-        img.width = 250;
+        img.width = 350;
         img.height = 300;
         // This next line will just add it to the <body> tag
         document.body.appendChild(img);
