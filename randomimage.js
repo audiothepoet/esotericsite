@@ -11,5 +11,5 @@ function generateRandomPicture(array){
 	let randomNum = Math.floor(Math.random() * array.length); 
 	image.setAttribute("src", array[randomNum]);
 	image.height=500;
-	image.width=450;
+	image.width=400;
 }
